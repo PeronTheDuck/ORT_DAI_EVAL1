@@ -1,0 +1,30 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="5px">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/entriesView"
+        android:text="Cantidad de entradas: "
+        android:textSize="13pt"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/wordAndroidView"
+        android:text="Cantidad de 'Android's: "
+        android:textSize="13pt"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/wordIosView"
+        android:text="Cantidad de 'iOS's: "
+        android:textSize="13pt"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/longestStringView"
+        android:text="Texto mas largo en letras: "
+        android:textSize="13pt"/>
+</LinearLayout>
